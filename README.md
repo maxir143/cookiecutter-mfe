@@ -8,7 +8,7 @@ Este template fue creado para ayudar en la generación de nuevos proyectos con l
 - Python 3.8 +
 
 ```bash
-pipx run cookiecutter 'C:\Users\PERSONAL\Desktop\cookiecutter-mfe\'
+pipx run cookiecutter https://github.com/maxir143/cookiecutter-mfe
 ```
 
 ## ¿Cómo Comenzar?
