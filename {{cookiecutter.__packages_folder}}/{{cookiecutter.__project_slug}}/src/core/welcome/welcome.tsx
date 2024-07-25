@@ -34,19 +34,19 @@ export function Welcome(props: WelcomeProps): JSX.Element {
       <div
         className="container d-flex flex-row justify-content-center align-items-center flex-wrap-reverse flex-xl-nowrap py-5 gap-5"
         style={{
-          minHeight: '80vh',
+          minHeight: "80vh",
         }}
       >
         {image.element || (
           <img
-            style={{ maxWidth: '800px' }}
+            style={{ maxWidth: "600px" }}
             className="pe-5"
             {...image.props}
           />
         )}
         <div className="d-flex flex-column align-items-start pb-5 pb-xl-0 ps-xl-5 gap-2">
           {copy?.element || <h3 className="text-start">{copy.description}</h3>}
-          <small className="mt-4" style={{ fontSize: '.75rem' }}>
+          <small className="mt-4" style={{ fontSize: ".75rem" }}>
             <b>SOLO HAS CLICK AQUÍ</b>
           </small>
           {button.element || (
