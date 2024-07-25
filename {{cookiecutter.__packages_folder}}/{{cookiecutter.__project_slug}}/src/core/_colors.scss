@@ -1,0 +1,19 @@
+$decision-colors: (
+  'decision-azul-ultramar': #0a2d5d,
+  'decision-azul-ultramar-p40': #092d5d,
+  'decision-black-rock-blue': #040227,
+  'decision-azul-neutro': #34a3f1,
+  'decision-azul-neutro-s50': #0ca4f8,
+  'decision-azul-claro': #daf1ff,
+  'decision-amarillo': #ffb828,
+  'decision-athens-gray': #f7f7f8,
+  'decision-scorpion-gray': #5c5c5c,
+  'decision-ghost-gray': #ced4da,
+  'decision-lilac-murmur-gray': #e5e5e9,
+  'decision-carnation-red': #f6695e,
+  'chat-bubble-error': #e44b40,
+  'chat-bubble-user': #4caf50,
+  'chat-bubble-server': #bbdaef,
+);
+
+$theme-colors: map-merge($theme-colors, $decision-colors);

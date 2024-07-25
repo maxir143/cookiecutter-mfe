@@ -1,0 +1,13 @@
+{
+  "project_name": "mfe new project",
+  "version": "0.0.1",
+  "project_port": "3000",
+  "__packages_folder": "packages",
+  "__author": "finvero",
+  "__name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+  "__project_slug": "{{ cookiecutter.__name }}",
+  "_copy_without_render": [
+        "*src",
+        "*.html"
+    ]
+}

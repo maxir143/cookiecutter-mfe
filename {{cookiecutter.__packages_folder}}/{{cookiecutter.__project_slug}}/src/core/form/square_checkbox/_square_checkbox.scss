@@ -1,0 +1,32 @@
+.square-checkbox {
+  .label {
+    font-size: 0.875rem; //14px
+    font-weight: 500;
+  }
+
+  .p-checkbox {
+    .p-checkbox-box {
+      border-radius: 2px;
+      box-shadow: none !important;
+      outline: none !important;
+      border-color: map-get($theme-colors, 'decision-ghost-gray') !important;
+
+      &:hover,
+      &:focus,
+      &:active {
+        border-color: map-get(
+          $theme-colors,
+          'decision-azul-neutro-s50'
+        ) !important;
+      }
+    }
+
+    .p-checkbox-box.p-highlight {
+      box-shadow: none !important;
+      outline: none !important;
+      border: none !important;
+
+      background: map-get($theme-colors, 'decision-azul-neutro-s50') !important;
+    }
+  }
+}

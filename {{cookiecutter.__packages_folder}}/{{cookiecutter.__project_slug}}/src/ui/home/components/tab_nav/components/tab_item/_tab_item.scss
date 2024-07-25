@@ -1,0 +1,18 @@
+.tab-item {
+  box-shadow: none !important;
+  outline: none !important;
+
+  border-radius: 50rem;
+
+  border: 1px solid map-get($theme-colors, 'decision-lilac-murmur-gray');
+  background: white;
+
+  .icon {
+    width: 20px;
+  }
+
+  .text {
+    font-size: 1.125rem; //18px
+    font-weight: 400;
+  }
+}

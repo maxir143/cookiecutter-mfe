@@ -1,0 +1,38 @@
+.menu {
+  .action-btn {
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+    background: none !important;
+
+    .icon {
+      width: 100%;
+      max-width: 21px;
+    }
+  }
+}
+
+.navbar-menu.p-tieredmenu {
+  @extend .mt-2;
+
+  .p-menuitem {
+    .p-menuitem-link {
+      border: none !important;
+      box-shadow: none !important;
+      outline: none !important;
+
+      &:hover {
+        background: map-get($theme-colors, 'decision-athens-gray');
+      }
+    }
+  }
+
+  .p-menuitem.p-menuitem-active > .p-menuitem-link {
+    background: map-get($theme-colors, 'decision-azul-claro');
+
+    .p-menuitem-text,
+    .p-icon {
+      color: map-get($theme-colors, 'decision-azul-ultramar');
+    }
+  }
+}

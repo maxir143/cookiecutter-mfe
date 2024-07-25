@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@core/*": ["core/*", "core"],
+      "@custom_types/*": ["custom_types/*", "custom_types"],
+      "@hooks/*": ["hooks/*", "hooks"],
+      "@constants/*": ["constants/*", "constants"],
+      "@lib/*": ["lib/*", "lib"],
+      "@api/*": ["api/*", "api"],
+      "@stories/*": ["stories/*", "stories"],
+      "@ui/*": ["ui/*", "ui"],
+      "@i18n": ["i18n"],
+    }
+  }
+}
