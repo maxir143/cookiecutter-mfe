@@ -1,34 +1,52 @@
-# finvero cookiecutter mfe template
+## Microfrontend con React JS 
+ 
+Este proyecto de microfrontend es desarrollado con React TypeScript, que
+aprovecha la potencia y flexibilidad de la última versión de React hasta Julio
+2023, la 18.2.0.
 
-Este template fue creado para ayudar en la generación de nuevos proyectos con la arquitectura de microfrontend.
+## Tecnologías Utilizadas
 
-## Iniciar un nuevo microfrontend
+El proyecto se construyó utilizando las siguientes tecnologías:
 
-### Requisitos
-- Python 3.8 +
+- React 18.2.0: React es una biblioteca de JavaScript ampliamente utilizada para
+  la construcción de interfaces de usuario. La versión 18.2.0 trae consigo
+  mejoras significativas en el rendimiento y la eficiencia, lo que garantiza una
+  experiencia fluida para los usuarios.
 
-```bash
-pipx run cookiecutter 'C:\Users\PERSONAL\Desktop\cookiecutter-mfe\'
-```
+- TypeScript: TypeScript es un superset de JavaScript que agrega tipado estático
+  opcional al lenguaje. Esto permite una mayor seguridad y productividad en el
+  desarrollo, ayudándote a evitar errores comunes y facilitando el mantenimiento
+  del código.
 
 ## ¿Cómo Comenzar?
-### Requisitos
-- Yarn
-- Node js
 
 Si deseas probar el arquetipo en tu máquina local, sigue estos pasos:
 
-1. Instalar dependencias desde el root del monorepo
+1. Asegúrate de tener Node.js y yarn instalados en tu entorno de desarrollo.
+
+2. Instalar dependencias
+
+Desde el root del monorepo
 
 ```bash
-yarn install
+yarn workspace <package-name> install
 ```
 
-2. Iniciar el proyecto en modo desarrollo
+Example:
+
+```
+yarn workspace @finvero/mfe-auth install
+```
+
+## Como arrancar el proyecto
+
+1. Abre una nueva terminal con el paquete que necesites ejecutar.
+
+2. Arrancar proyecto con yarn
 
 ```bash
-yarn workspace <package-name> start
+yarn start
 ```
 
-Esto correrá el proyecto y abrirá el navegador en localhost:port dónde ya podrás
-visualizar el proyecto en ejecución.
+Esto correra el proyecto y abrirá el navegador en localhost:port dónde ya podrás
+visualiazar el proyecto en ejecución.
